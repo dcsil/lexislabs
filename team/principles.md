@@ -7,7 +7,7 @@
   - **Overcommunicate!** If a member suspects that something has any potential to cause a problem in the future, they will try to bring it up before the problem becomes a reality.
 - Our main communication platform is Slack. We will regularly (i.e. at least once every day) monitor Slack.
   - If team members are unable to fulfill this, they must notify the entire team in advance.
-- In case of team conflicts, we should try to confront each other openly. However, we acknowledge that some members prefer mediation; in which case, Tony or Leonid will act as a neutral mediator.
+- In case of team conflicts, we should try to confront each other openly. However, we acknowledge that some members prefer mediation; in that case, Tony or Leonid will act as a neutral mediator.
 - We should provide feedback to each other at the moment it comes to mind. We accept that feedback may not always be constructively framed, and we will not take negative or critical feedback personally.
 
 ## Meetings
@@ -22,7 +22,7 @@
   - They are still expected to provide any relevant updates via an alternate format, such as a message on the main communication channel.
 - Subteam meetings (e.g. meetings specifically involving those working on back-end development) may also be held as needed.
 - Ad-hoc meetings are encouraged, especially when it would be faster than messaging. However, we acknowledge that some members may require some time to prepare their thoughts.
-- Team members will maintain a calendly or some other system to indicate when they are available for collaborative working sessions as needed. However, sufficient notice (a “booking”) should still be given prior to these sessions.
+- Team members will maintain a Calendly or some other system to indicate when they are available for collaborative working sessions as needed. However, sufficient notice (a “booking”) should still be given prior to these sessions.
 
 ## Work
 

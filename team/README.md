@@ -4,7 +4,7 @@ People at Neurolingo
 ---
 
 - [Parth Vats, Backend Software Engineer](./parth_vats.md)
-- ...
+- [Krishna Cheemalapati, Front-End & UX Engineer](./krishna_cheemalapati.md)
 
 ### Team Leader
 

@@ -7,6 +7,7 @@
 
 ## Links
 
+- [Resume](./assets/parth/resume.pdf)
 - [GitHub](https://github.com/parthvats02)
 - [LinkedIn](https://www.linkedin.com/in/parthvats)
 

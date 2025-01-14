@@ -4,7 +4,7 @@
 
 #### Team Slack Channel: #team\-neurolingo
 
-COMPANY NAME is a company founded in the THEME industry. COMPANY NAME aims to VISION STATEMENT.
+Neurolingo is a next-gen start-up specializing in the education industry. Neurolingo's vision is to apply cutting-edge technology such as generative AI to provide tailored and personalized language lessons. This will both accelerate and enhance user's language learning abilities, creating a world where anyone can break through the language barrier.
 
 Table of Contents
 ---

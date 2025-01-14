@@ -5,7 +5,7 @@ People at Neurolingo
 
 - [Krishna Cheemalapati, Front-End & UX Engineer](./krishna_cheemalapati.md)
 - [Tony Hu, Testing & CI](./tony_juntao_hu.md)
-- [Leonid Nediak, Software Developer](./leonid_nediak.md)
+- [Leonid Nediak, AI & Data Engineer](./leonid_nediak.md)
 - [Wilson Sy, Product Manager](./wilson_sy.md)
 - [Parth Vats, Backend Software Engineer](./parth_vats.md)
 

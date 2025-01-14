@@ -1,13 +1,13 @@
 # Krishna Cheemalapati
 
-![Krishna Cheemalapati Profile Picture] <img src="./krishnacheemalapati.jpeg" width="300">
+<img src="./assets/krishna/krishnacheemalapati.jpeg" width="300">
 
 - Front-End & UX Engineer
 - Email: krishna.r.cheemalapati@gmail.com
 
 ## Links
 
-- [Resume](./krishnacheemalapatiresume.pdf)
+- [Resume](./assets/krishna/krishnacheemalapatiresume.pdf)
 - [GitHub](https://github.com/krishnacheemalapati)
 - [LinkedIn](https://www.linkedin.com/in/krishnacheemalapati)
 - [Portfolio](https://devpost.com/krishkrishct)

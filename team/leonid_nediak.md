@@ -2,7 +2,7 @@
 
 ![Leonid Nediak Image](assets/leonid/ln_pic.png)
 
-- Software Developer
+- AI & Data Engineer
 - l.nediak@mail.utoronto.ca
 
 ## Links

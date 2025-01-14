@@ -2,7 +2,7 @@
 
 ![tony](./assets/tony/tony.jpeg)
 
-- Software Developer, Linguist
+- Testing, CI, Linguist
 - tonyjuntao.hu@mail.utoronto.ca
 
 ## Links

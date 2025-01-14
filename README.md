@@ -4,7 +4,7 @@
 
 #### Team Slack Channel: #team\-neurolingo
 
-Neurolingo is a next-gen start-up specializing in the education industry. Neurolingo's vision is to apply cutting-edge technology such as generative AI to provide tailored and personalized language lessons. This will both accelerate and enhance user's language learning abilities, creating a world where anyone can break through the language barrier.
+Neurolingo is a next-gen start-up specializing in the education industry. Neurolingo's vision is to integrate cutting-edge generative AI with scientifically backed language learning methods to provide language lessons tailored to individuals' unique backgrounds and learning styles. Unlike other language learning products which mould language learners into fixed curricula, Neurolingo offers solutions that empower users to guide their own journey.
 
 Table of Contents
 ---

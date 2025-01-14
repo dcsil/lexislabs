@@ -1,10 +1,10 @@
-[COMPANY NAME Principles](./principles.md)
+[Neurolingo Principles](./principles.md)
 
-People at COMPANY NAME
+People at Neurolingo
 ---
 
-- [Jane Doe, Engineering](./jane_doe.md)
-- ...
+- [Parth Vats, Backend Software Engineer](./parth_vats.md)
+- [Krishna Cheemalapati, Front-End & UX Engineer](./krishna_cheemalapati.md)
 
 ### Team Leader
 

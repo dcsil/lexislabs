@@ -1,6 +1,6 @@
 # Team Principles
 
-*Effective Date:* These principles will take effect after the submission of Assignment 1. Until then, the team will operate under the existing ad-hoc guidelines described [here](https://docs.google.com/document/d/1uAUhIbC1iHslmCeaTo5hZo7XY8BmFoIIOOKRFhju4Rk/edit?usp=sharing)
+*Effective Date:* These principles will take effect after the submission of Assignment 1. Until then, the team will operate under the existing ad-hoc guidelines described [here](https://docs.google.com/document/d/1uAUhIbC1iHslmCeaTo5hZo7XY8BmFoIIOOKRFhju4Rk/edit?usp=sharing).
 
 ## Communication
 

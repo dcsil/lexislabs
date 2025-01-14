@@ -1,6 +1,6 @@
-[Neurolingo Principles](./principles.md)
+[NeuroLingo Principles](./principles.md)
 
-People at Neurolingo
+People at NeuroLingo
 ---
 
 - [Krishna Cheemalapati, Front-End & UX Engineer](./krishna_cheemalapati.md)

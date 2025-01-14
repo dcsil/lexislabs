@@ -1,9 +1,9 @@
-[COMPANY NAME Principles](./principles.md)
+[Neurolingo Principles](./principles.md)
 
-People at COMPANY NAME
+People at Neurolingo
 ---
 
-- [Jane Doe, Engineering](./jane_doe.md)
+- [Parth Vats, Backend Software Engineer](./parth_vats.md)
 - ...
 
 ### Team Leader

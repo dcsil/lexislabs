@@ -15,9 +15,11 @@
 ## Meetings
 
 - We prefer in-person meetings when our schedules allow, but online meetings are still acceptable.
-- We will have weekly team-wide meetings at 6 pm on Sundays for 1 hour.
+- We will have our weekly standup during/after the Wednesday lecture, where we discuss progress/achievements over the previous week.
+- In addition to the Wednesday standup, we will have at least one more meeting each week, focusing on making progress and getting work done.
 - Additional team-wide meetings will be held as necessary (e.g. for key milestones).
   - The day after a deadline for a key milestone (e.g. A1), we will organize another meeting to delegate tasks and plan what needs to be done for the subsequent assignment.
+- At the end of each meeting, including the Wednesday lecture meeting, we must set a time for the next meeting. For additional meetings we hold, the “next” meeting we decide can be the Wednesday lecture meeting.
 - All meetings will have an agenda outlining what should be discussed during the meeting, along with meeting minutes and next steps that members are expected to complete by the next meeting (or other deadlines as applicable)
   - Next steps will be communicated via the main communication channel (specified above) after each meeting in a shared channel.
 - Team members are expected to communicate at least 6 hours in advance if they are unable to attend a meeting.

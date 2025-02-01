@@ -28,7 +28,7 @@
 
 ## Work
 
-- If a team member feels that the amount of work assigned to them exceeds what they can handle, they should be responsible for informing others with a reasonable buffer time. The tickets can then be reassigned to other members who are able to help.
+- If a team member feels that the amount of work assigned to them exceeds what they can handle, they should be responsible for informing others with a reasonable buffer time. Their work can then be reassigned to other members who are able to help.
 - Team members are expected to complete tasks at least one day prior to key deadlines to ensure adequate time for submission and presentation preparation.
   - We will check in with each other two days prior to said key deadlines.
 - All changes to the default branch of any repo should be reviewed by at least one other team member (will be enforced via GitHub rules).

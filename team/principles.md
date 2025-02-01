@@ -31,6 +31,7 @@
 - To efficiently delegate work and track progress, we will create tickets and assign an owner to each ticket. The owner holds the final call on decisions pertaining to the ticket and exclusive write access to relevant assets (code or documents).
 - If a ticket is large enough that its estimated completion time exceeds 5 hours, we will create child tickets so that progress is more easily tracked and acknowledged.
 - If a team member feels that the amount of work assigned to them exceeds what they can handle, they should be responsible for informing others with a reasonable buffer time. The tickets can then be reassigned to other members who are able to help.
+- The ticketing system will be implemented on all our repositories using GitHub features, where a "ticket" will refer to a GitHub issue. See [CONTRIBUTING.md](../CONTRIBUTING.md) for the specifics on how it is implemented for this repository.
 - Team members are expected to complete tasks at least one day prior to key deadlines to ensure adequate time for submission and presentation preparation.
   - We will check in with each other two days prior to said key deadlines.
 - All changes to the default branch of any repo should be reviewed by at least one other team member (will be enforced via GitHub rules).
@@ -40,6 +41,16 @@
 - Brainstorming sessions are best held in-person as a group.
 - Our deep work environment should be quiet and calm.
 - When we copy code or information from external sources, we must understand what we are copying and attribute it in accordance with university-level guidelines.
+
+### Project Management
+
+- We will use Jira as the source of truth for all of our tasks.
+- We will create tickets (Jira issues) for any TODO items determined during our team meetings. Each ticket must contain a concrete description of a well-scoped task and be assigned an owner who is responsible for its execution. The owner holds the final call on decisions pertaining to the ticket and exclusive write access to relevant assets (code or documents).
+- When creating a ticket, we will fill in the "Due date" and "Story point estimate" fields. Team members who are knowledgeable about the task will collectively assign a numerical value ("points") to a ticket based on the expected complexity or workload. For our team, we will use the convention of 1 point ≈ 0.5 hours of work. Only numbers in the fibonacci sequence are valid story point values.
+- An exception to the rule of assigning story point estimates is **spike tickets**. These tickets will be used to describe exploratory work and will not be pointed (assigned points). The end result of a spike ticket should be tickets describing implementation work or further spikes.
+- We will visualize our progress with a kanban board. To ensure the effectiveness of the board, team members must update their tickets asynchronously based on their progress.
+- We will employ additional tools such as burndown charts to track progress when appropriate.
+- Every code change (pull request) must belong to a ticket.
 
 ## Task Division and Member Responsibilities
 

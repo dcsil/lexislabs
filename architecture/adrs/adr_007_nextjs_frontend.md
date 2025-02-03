@@ -1,7 +1,7 @@
 ## ADR 007: Next.js for frontend
 
 ## Context
-We need to select a framework for developing the frontend of NeuroLingo, a cross-platform language learning application. The framework must support several requirements. These include SEO optimization for improved discoverability, server-side rendering (SSR) and static site generation (SSG) to enhance performance, scalability to handle potential future growth, a rich ecosystem and compatibility with modern tools and libraries, cross-platform support for web and mobile users, and ease of developer onboarding and productivity. The framework must also be compatible with TypeScript, as this is our chosen language for the frontend. 
+We need to select a framework for developing the frontend of NeuroLingo, a cross-platform language learning application. The framework must support several requirements. These include search engine optimization for improved discoverability, server-side rendering (SSR) and static site generation (SSG) to enhance performance, scalability to handle potential future growth, a rich ecosystem and compatibility with modern tools and libraries, cross-platform support for web and mobile users, and ease of developer onboarding and productivity. The framework must also be compatible with TypeScript, as this is our chosen language for the frontend. 
 
 ### Options
 

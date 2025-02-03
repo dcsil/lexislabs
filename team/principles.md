@@ -24,7 +24,6 @@
   - They are still expected to provide any relevant updates via an alternate format, such as a message on the main communication channel.
 - Subteam meetings (e.g. meetings specifically involving those working on back-end development) may also be held as needed.
 - Ad-hoc meetings are encouraged, especially when it would be faster than messaging. However, we acknowledge that some members may require some time to prepare their thoughts.
-- Team members will maintain a Calendly or some other system to indicate when they are available for collaborative working sessions as needed. However, sufficient notice (a “booking”) should still be given prior to these sessions.
 
 ## Work
 
@@ -43,12 +42,11 @@
 
 - We will use Jira as the source of truth for all of our tasks.
 - We will create tickets (Jira issues) for any TODO items determined during our team meetings. Each ticket must contain a concrete description of a well-scoped task and be assigned an owner who is responsible for its execution. The owner holds the final call on decisions pertaining to the ticket and exclusive write access to relevant assets (code or documents).
-- When creating a ticket, we will fill in the "Due date" and "Story point estimate" fields. Team members who are knowledgeable about the task will collectively assign a numerical value ("points") to a ticket based on the expected complexity or workload. For our team, we will use the convention of 1 point ≈ 0.5 hours of work. Only numbers in the fibonacci sequence are valid story point values.
-- An exception to the rule of assigning story point estimates is **spike tickets**. These tickets will be used to describe exploratory work and will not be pointed (assigned points). The end result of a spike ticket should be tickets describing implementation work or further spikes.
-- If a ticket is assigned a story point estimate of 13 or more, we must create child tickets to clarify steps.
+- When creating a ticket, we will fill in the "Due date" and "Story point estimate" fields. Team members who are knowledgeable about the task will collectively assign a numerical value ("points") to a ticket based on the expected complexity or workload. For our team, we will use the convention of 1 point ≈ 0.5 hours of work. Only positive numbers in the Fibonacci sequence are valid story point values.
+  - An exception to the rule of assigning story point estimates is **spike tickets**. These tickets will be used to describe exploratory work and will not be pointed (assigned points). The end result of a spike ticket should be tickets describing implementation work or further spikes.
+  - If a ticket is assigned a story point estimate of 13 or more, we must create child tickets to clarify steps.
 - We will visualize our progress with a kanban board. To ensure the effectiveness of the board, team members must update their tickets asynchronously based on their progress.
-- We will employ additional tools such as burndown charts to track progress when appropriate.
-- Every code change (pull request) must belong to a ticket.
+- Every code change (pull request) must belong to a ticket. Changes tot the team repo will be filed in the DCSIL Coursework project.
 
 ## Task Division and Member Responsibilities
 

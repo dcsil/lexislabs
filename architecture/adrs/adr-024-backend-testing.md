@@ -1,4 +1,4 @@
-## ADR 003: Backend Testing - Pytest
+## ADR 024: Backend Testing - Pytest
 
 ## Context
 

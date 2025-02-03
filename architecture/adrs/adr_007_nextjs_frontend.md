@@ -5,7 +5,7 @@ We need to select a framework for developing the frontend of NeuroLingo, a cross
 
 ### Options
 
-Next.js offers built-in support for SSR and SSG, excellent SEO optimization capabilities, and a robust developer experience with TypeScript and CSS-in-JS. It also provides a rich plugin ecosystem, including strong support for tools like Tailwind CSS and i18n, a large community, extensive documentation, and easy integration with backend APIs. However, it requires server hosting for SSR functionality and has a learning curve for developers unfamiliar with React. Even for those familiar with React, latest versions of Next.js introduce a new routing system that may be unfamiliar.
+Next.js offers built-in support for SSR and SSG, excellent search engine optimization capabilities, and a robust developer experience with TypeScript and CSS-in-JS. It also provides a rich plugin ecosystem, including strong support for tools like Tailwind CSS and i18n, a large community, extensive documentation, and easy integration with backend APIs. However, it requires server hosting for SSR functionality and has a learning curve for developers unfamiliar with React. Even for those familiar with React, latest versions of Next.js introduce a new routing system that may be unfamiliar.
 
 React without Next.js is lightweight and flexible. It operates fully client-side, eliminating the need for server hosting, and is familiar to most frontend developers. However, it lacks native SSR and SSG support, requiring additional tools like Gatsby or custom solutions, and offers poor SEO out of the box. It is also less suited for large-scale applications compared to Next.js.
 
@@ -13,7 +13,7 @@ Vue.js, with options like Nuxt.js, provides SSR and SSG capabilities similar to 
 
 ## Decision
 
-We will use Next.js to build the frontend for NeuroLingo. This decision aligns with our need for SSR/SSG capabilities, SEO optimization, scalability, and developer productivity. Next.js is also widely adopted, ensuring access to community support and open source extensions.
+We will use Next.js to build the frontend for NeuroLingo. This decision aligns with our need for SSR/SSG capabilities, search engine optimization, scalability, and developer productivity. Next.js is also widely adopted, ensuring access to community support and open source extensions.
 
 ## Status
 

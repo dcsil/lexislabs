@@ -29,19 +29,13 @@ Our team is building an MVP for NeuroLingo, a language-learning application that
    - **Cons**:  
      - Requires upfront effort in designing an efficient module boundary.  
 
----
-
 ## Decision
 
 We have decided to adopt a **Monolith Architecture** for the MVP.
 
----
-
 ## Status
 
 **Accepted** - This decision aligns with our current team size, skills, and project scope.
-
----
 
 ## Consequences
 

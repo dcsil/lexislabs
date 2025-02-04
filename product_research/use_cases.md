@@ -86,7 +86,7 @@ The backend requests the necessary user data from the DB, and generates a data s
 ### UI sketch
 
 <p align="center">
-  <img src="./assets/Progress_dashboard.png" />
+  <img src="./assets/Dashboard.png" />
   <br>
   <em>Figure 4: Progress dashboard UI sketch</em>
 </p>

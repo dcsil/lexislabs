@@ -28,19 +28,13 @@ For our MVP, we need a reliable testing framework that ensures the correctness o
    - **Cons**:  
      - Not directly compatible with Django.
 
----
-
 ## Decision
 
 We have chosen **Pytest** as our primary backend testing framework for our MVP.
 
----
-
 ## Status
 
 **Accepted** - This decision aligns with our goal of rapid MVP development, maintainability, and ensuring test reliability.
-
----
 
 ## Consequences
 

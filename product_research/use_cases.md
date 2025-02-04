@@ -18,7 +18,11 @@ When the user closes the app or exits the assessment, the frontend notifies the 
 
 ### UI sketch
 
-
+<p align="center">
+  <img src="./assets/Reading_karaoke.png" />
+  <br>
+  <em>Figure 1: Reading karaoke UI sketch</em>
+</p>
 
 ## 2. Long reading
 
@@ -37,7 +41,11 @@ Upon beginning mic input, the user's speech is streamed to the backend, which st
 
 ### UI sketch
 
-
+<p align="center">
+  <img src="./assets/Long_reading.png" />
+  <br>
+  <em>Figure 2: Long reading UI sketch</em>
+</p>
 
 ## 3. Convobot
 
@@ -59,7 +67,11 @@ Upon opening the side panel, the user's pronunciation performance is retrieved f
 
 ### UI sketch
 
-
+<p align="center">
+  <img src="./assets/Convobot.png" />
+  <br>
+  <em>Figure 3: Convobot UI sketch</em>
+</p>
 
 ## 4. Progress dashboard
 
@@ -72,3 +84,9 @@ A visually appealing dashboard presents statistics about the user's current pron
 The backend requests the necessary user data from the DB, and generates a data structure that contains all the statistics to be displayed. The frontend parses the data structure to populate graphical elements. The frontend should cache the report to reduce demand on BE resources if the user frequently opens the dashboard page.
 
 ### UI sketch
+
+<p align="center">
+  <img src="./assets/Progress_dashboard.png" />
+  <br>
+  <em>Figure 4: Progress dashboard UI sketch</em>
+</p>

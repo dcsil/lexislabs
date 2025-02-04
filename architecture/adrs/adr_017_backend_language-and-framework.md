@@ -27,19 +27,13 @@ For our MVP, we need a backend framework that supports rapid development, easy i
    - **Cons**:  
      - Missing many built-in features Django offers, which would require additional development effort.
 
----
-
 ## Decision
 
 We have chosen **Python Django** as the backend framework for NeuroLingo.
 
----
-
 ## Status
 
 **Accepted** - This decision supports our focus on rapid MVP development and seamless AI integration.
-
----
 
 ## Consequences
 

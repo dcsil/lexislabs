@@ -46,7 +46,7 @@
   - An exception to the rule of assigning story point estimates is **spike tickets**. These tickets will be used to describe exploratory work and will not be pointed (assigned points). The end result of a spike ticket should be tickets describing implementation work or further spikes.
   - If a ticket is assigned a story point estimate of 13 or more, we must create child tickets to clarify steps.
 - We will visualize our progress with a kanban board. To ensure the effectiveness of the board, team members must update their tickets asynchronously based on their progress.
-- Every code change (pull request) must belong to a ticket. Changes tot the team repo will be filed in the DCSIL Coursework project.
+- Every code change (pull request) must belong to a ticket. Changes to the team repo will be filed in the DCSIL Coursework project.
 
 ## Task Division and Member Responsibilities
 

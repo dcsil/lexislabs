@@ -5,7 +5,7 @@ For any architectural/engineering decisions we make, we will create an ADR (Arch
 **ADRs will follow this process:**
 * They will live in the repo, under a directory `architecture/adrs`
 * They will be written in Markdown
-* They will follow the naming convention `adr_NNN_<decision-title>.md`, where the decision title in the filename must use snake case
+* They will follow the naming convention `adr_NNN_<decision_title>.md`, where the decision title in the filename must use snake case
   * NNN must be the number associated with the Jira ticket in the DCSIL Coursework project
   * NNN can be discontinuous between chronologically consecutive ADRs, but the numbering must be unique and monotonic (i.e. an older ADR must have a lower number than a more recent ADR)
 

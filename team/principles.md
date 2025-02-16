@@ -49,6 +49,8 @@
   - If a ticket is assigned a story point estimate of 13 or more, we must create child tickets to clarify steps.
 - We will visualize our progress with a kanban board. To ensure the effectiveness of the board, team members must update their tickets asynchronously based on their progress.
 - Every code change (pull request) must belong to a ticket. Changes to the team repo will be filed in the DCSIL Coursework project.
+  - The pull request title must begin with the ticket ID, formatted as `<BOARD ID>-<TICKET NUM>: <PR TITLE>`. For example, `DCS-10: Remove all code`.
+  - The corresponding branches must contain the ticket ID. For example, `DCS-10-remove-all-code`.
 
 ## Task Division and Member Responsibilities
 

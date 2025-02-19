@@ -4,7 +4,7 @@
 
 ### User interaction
 
-The user is shown a button to begin mic input and instructions to read aloud a displayed text in their target learning language (e.g. a short story). The user will be able to select a sentence to read. There will also be a progress bar for the number of sentences read, out of the total number in the passage. Upon pressing the button and completing the reading of the selected sentence, pronunciation feedback will be displayed by highlighting mispronounced words, along with providing a button to view the aggregated summary based on the feedback on the latest attempts of each sentence, from which the user will also be able to navigate to the feedback on older attempts. The user can click on feedback items for more detailed or graphical explanations of their pronunciation errors. This will include the option to listen to an ideal pronounciation of the mispronounced words. There will be the option to play back the user's reading attempt, and errors will be highlighted on the timeline for the playback.
+The user is shown a button to begin mic input and instructions to read aloud a displayed text in their target learning language (e.g. a short story). The user will be able to select a sentence to read. There will also be a progress bar for the number of sentences read, out of the total number in the passage. Upon pressing the button and completing the reading of the selected sentence, pronunciation feedback will be displayed by highlighting mispronounced words, along with providing a button to view the aggregated summary based on the feedback on the latest attempts of each sentence, from which the user will also be able to navigate to the feedback on older attempts. The user can click on feedback items for more detailed or graphical explanations of their pronunciation errors. This will include the option to listen to an ideal pronounciation of the mispronounced words, which would take the form of an audio clip. There will be the option to play back the user's reading attempt, and errors will be highlighted on the timeline for the playback.
 
 There will be a screen for importing text, either by copy-pasting it into a text field or from a file. The user will also be able to view their reading karaoke history, which will be searchable using various metrics. The user will be able to view the detailed feedback they received for any attempt in their history. Also, the history will be tied to their account, for which login, password management, and account deletion will be available.
 
@@ -36,7 +36,7 @@ Internationalization would be a matter of designing the frontend architecture wi
 - Progress bar for number of sentences read out of total in passage
 - Can select sentence from passage to practice
 - Detailed feedback available for each error, which would be a highlighted word
-- Ideal pronounciation available for each error
+- Ideal pronounciation audio available to play for each error
 - Button to go to aggregated feedback
 - Temporarily available audio playback
 - Error highlighting on audio timeline
@@ -126,7 +126,6 @@ Considering that the history of activities is stored, the most recent of those c
 
 - Shows learning streak, defined as the number of consecutive days (dependent on the user's local time zone) in which the user completed at least one activity
 - Shows the total number of activities completed in the last 30 days
-- Shows an error breakdown chart containing total counts of each type of error
 - Has a "continue where you left off" button
 
 ## 5. AI-powered reading passage generation

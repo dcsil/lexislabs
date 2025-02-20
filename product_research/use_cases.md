@@ -4,7 +4,7 @@
 
 ### User interaction
 
-The user is shown a button to begin mic input and instructions to read aloud a displayed text in their target learning language (e.g. a short story). The user will be able to select a sentence to read. There will also be a progress bar for the number of sentences read, out of the total number in the passage. Upon pressing the button and completing the reading of the selected sentence, pronunciation feedback will be displayed by highlighting mispronounced words, along with providing a button to view the aggregated summary based on the feedback on the latest attempts of each sentence, from which the user will also be able to navigate to the feedback on older attempts. The user can click on feedback items for more detailed or graphical explanations of their pronunciation errors. This will include the option to listen to an ideal pronounciation of the mispronounced words, which would take the form of an audio clip. There will be the option to play back the user's reading attempt, and errors will be highlighted on the timeline for the playback.
+The user is shown a button to begin mic input and instructions to read aloud a displayed text in their target learning language (e.g. a short story). The user will be able to select a sentence to read. There will also be a progress bar for the number of sentences read, out of the total number in the passage. Upon pressing the button and completing the reading of the selected sentence, pronunciation feedback will be displayed by highlighting mispronounced words, along with providing a button to view the aggregated summary based on the feedback on the latest attempts of each sentence, from which the user will also be able to navigate to the feedback on older attempts. The user can click on feedback items for more detailed or graphical explanations of their pronunciation errors. This will include the option to listen to an ideal pronounciation of the mispronounced words, which would take the form of an audio clip.
 
 There will be a screen for importing text, either by copy-pasting it into a text field or from a file. The user will also be able to view their reading karaoke history, which will be searchable using various metrics. The user will be able to view the detailed feedback they received for any attempt in their history. Additionally, users' history will be linked to their accounts, allowing for login, password management, and account deletion.
 
@@ -14,7 +14,7 @@ The UI will be available in multiple languages.
 
 The texts that users import or generate will be stored in the Postgres DB. If these texts are not already cached on the frontend, they will be retrieved from the backend as needed.
 
-Upon finishing mic input, the user's recording is sent to the backend and then to the Azure Speech AI Pronunciation Assessment API. The reference text is also sent to Azure. As feedback is returned from Azure, the backend will forward the updated scores and feedback for the frontend to display. Ideal pronunciation of each mispronounced word can be retrieved from the Forvo API. For audio playback, the recording can be temporarily stored on the frontend.
+Upon finishing mic input, the user's recording is sent to the backend and then to the Azure Speech AI Pronunciation Assessment API. The reference text is also sent to Azure. As feedback is returned from Azure, the backend will forward the updated scores and feedback for the frontend to display. Ideal pronunciation of each mispronounced word can be retrieved from the Forvo API.
 
 Text importing will involve sending the copy-pasted or imported text to the backend to be stored in the database. The history will be maintained as a table of relevant feedback details for each attempt, and it will be cached on the frontend for easier searching.
 
@@ -38,8 +38,6 @@ Internationalization would be a matter of designing the frontend architecture wi
 - Detailed feedback available for each error, which would be a highlighted word
 - Ideal pronounciation audio available to play for each error
 - Button to go to aggregated feedback
-- Temporarily available audio playback
-- Error highlighting on audio timeline
 - History of previous reading karaoke attempts on any passage, searchable by title and passage text
 - UI available in English and Spanish
 
@@ -138,8 +136,16 @@ The user is presented with sliders and options describing various aspects of the
 
 Implementing the options is a matter of well-designed prompts to be given to the Cohere Aya LLM by the backend, while the AI-generated versus internet-sourced switch concerns whether or not to use RAG to get the text. The backend will also need to do some sanitization on the generated text. Then it can send it to the frontend, which will present the text for review.
 
+### UI Sketch
+
+<p align="center">
+  <img src="./assets/Text_generator.png" />
+  <br>
+  <em>Figure 5: Reading passage generation UI sketch</em>
+</p>
+
 ### MVP
 
 - Has a slider for vocabulary difficulty
-- Has a switch for whether to use RAG
+- Has a text input for describing the topic
 - Goes to a screen for reviewing the generated text, containing the option to add it to reading karaoke

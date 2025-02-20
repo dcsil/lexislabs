@@ -4,17 +4,21 @@
 
 ### User interaction
 
-The user is shown a button to begin mic input and instructions to read aloud a displayed text in their target learning language (e.g. a short story).
-Upon pressing the button and beginning reading, pronunciation feedback for read sentences will be displayed incrementally.
-The user can click on feedback items for more detailed or graphical explanations of their errors.
+The user is shown a button to begin mic input and instructions to read aloud a displayed text in their target learning language (e.g. a short story). The user will be able to select a sentence to read. There will also be a progress bar for the number of sentences read, out of the total number in the passage. Upon pressing the button and completing the reading of the selected sentence, pronunciation feedback will be displayed by highlighting mispronounced words, along with providing a button to view the aggregated summary based on the feedback on the latest attempts of each sentence, from which the user will also be able to navigate to the feedback on older attempts. The user can click on feedback items for more detailed or graphical explanations of their pronunciation errors. This will include the option to listen to an ideal pronounciation of the mispronounced words, which would take the form of an audio clip.
+
+There will be a screen for importing text, either by copy-pasting it into a text field or from a file. The user will also be able to view their reading karaoke history, which will be searchable using various metrics. The user will be able to view the detailed feedback they received for any attempt in their history. Additionally, users' history will be linked to their accounts, allowing for login, password management, and account deletion.
+
+The UI will be available in multiple languages.
 
 ### Technical implementation
 
-The backend app will retrieve a short text in the user's target language either from our Postgres DB or by requesting a generated text from Cohere's Aya LLM, which factors in the user's previous assessments and level of proficiency. The frontend app will inject the text into the appropriate visual element.
+The texts that users import or generate will be stored in the Postgres DB. If these texts are not already cached on the frontend, they will be retrieved from the backend as needed.
 
-Upon beginning mic input, the user's speech is streamed to the backend, which streams it to the Azure Speech AI Pronunciation Assessment API. The reference text is also sent to Azure. As feedback is returned from Azure, the backend will forward the updated scores and incremental feedback for the frontend to display.
+Upon finishing mic input, the user's recording is sent to the backend and then to the Azure Speech AI Pronunciation Assessment API. The reference text is also sent to Azure. As feedback is returned from Azure, the backend will forward the updated scores and feedback for the frontend to display. Ideal pronunciation of each mispronounced word can be retrieved from the Forvo API.
 
-When the user closes the app or exits the assessment, the frontend notifies the backend to persist parts of the assessment (e.g. fluency score, incorrectly pronounced words) to the user's profile in the DB.
+Text importing will involve sending the copy-pasted or imported text to the backend to be stored in the database. The history will be maintained as a table of relevant feedback details for each attempt, and it will be cached on the frontend for easier searching.
+
+Internationalization would be a matter of designing the frontend architecture with that in mind, meaning no hardcoded text strings, etc.
 
 ### UI sketch
 
@@ -23,6 +27,19 @@ When the user closes the app or exits the assessment, the frontend notifies the 
   <br>
   <em>Figure 1: Reading karaoke UI sketch</em>
 </p>
+
+### MVP
+
+- Importing copy-pasted text
+- Viewing aggregated latest feedback on all sentences in a given passage, with a way to navigate to older feedback
+- Button to start/stop recording
+- Progress bar for number of sentences read out of total in passage
+- Can select sentence from passage to practice
+- Detailed feedback available for each error, which would be a highlighted word
+- Ideal pronounciation audio available to play for each error
+- Button to go to aggregated feedback
+- History of previous reading karaoke attempts on any passage, searchable by title and passage text
+- UI available in English and Spanish
 
 ## 2. Long reading
 
@@ -46,6 +63,10 @@ Upon beginning mic input, the user's speech is streamed to the backend, which st
   <br>
   <em>Figure 2: Long reading UI sketch</em>
 </p>
+
+### MVP
+
+This use case will not be addressed as part of the MVP.
 
 ## 3. Convobot
 
@@ -73,15 +94,23 @@ Upon opening the side panel, the user's pronunciation performance is retrieved f
   <em>Figure 3: Convobot UI sketch</em>
 </p>
 
+### MVP
+
+This use case will not be addressed as part of the MVP.
+
 ## 4. Progress dashboard
 
 ### User interaction
 
 A visually appealing dashboard presents statistics about the user's current pronunciation proficiency and their usage of the app. This can include graphs showing historical assessment scores, comparisons to standardized language learning guidelines, and summaries about areas in need of improvement.
 
+There will also be a "continue where you left off" button to jump to where the user stopped in their previous session.
+
 ### Technical implementation
 
 The backend requests the necessary user data from the DB, and generates a data structure that contains all the statistics to be displayed. The frontend parses the data structure to populate graphical elements. The frontend should cache the report to reduce demand on BE resources if the user frequently opens the dashboard page.
+
+Considering that the history of activities is stored, the most recent of those can be queried to determine where to jump to when "continue where you left off" is pressed, and this can also be cached by the frontend.
 
 ### UI sketch
 
@@ -90,3 +119,33 @@ The backend requests the necessary user data from the DB, and generates a data s
   <br>
   <em>Figure 4: Progress dashboard UI sketch</em>
 </p>
+
+### MVP
+
+- Shows learning streak, defined as the number of consecutive days (dependent on the user's local time zone) in which the user completed at least one activity
+- Shows the total number of activities completed in the last 30 days
+- Has a "continue where you left off" button
+
+## 5. AI-powered reading passage generation
+
+### User interaction
+
+The user is presented with sliders and options describing various aspects of the desired text, along with a switch to indicate whether to allow AI-generated text or to require text sourced from the internet. The user can then choose to generate the text, review the result, and choose whether to use it or regenerate with different options.
+
+### Technical implementation
+
+Implementing the options is a matter of well-designed prompts to be given to the Cohere Aya LLM by the backend, while the AI-generated versus internet-sourced switch concerns whether or not to use RAG to get the text. The backend will also need to do some sanitization on the generated text. Then it can send it to the frontend, which will present the text for review.
+
+### UI Sketch
+
+<p align="center">
+  <img src="./assets/Text_generator.png" />
+  <br>
+  <em>Figure 5: Reading passage generation UI sketch</em>
+</p>
+
+### MVP
+
+- Has a slider for vocabulary difficulty
+- Has a text input for describing the topic
+- Goes to a screen for reviewing the generated text, containing the option to add it to reading karaoke

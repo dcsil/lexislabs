@@ -120,7 +120,7 @@ Considering that the history of activities is stored, the most recent of those c
 
 - Shows learning streak, defined as the number of consecutive days (dependent on the user's local time zone) in which the user completed at least one activity
 - Shows the total number of activities completed in the last 30 days
-- Shows average of various key aspects of pronunciation like pronunciation, accuracy, etc.
+- Shows weekly and monthly averages of various key aspects of pronunciation like accuracy, fluency scores, etc.
 - Shows the user's percentile position (in terms of overall scores) in relation to other users
 
 ## 5. AI-powered reading passage generation

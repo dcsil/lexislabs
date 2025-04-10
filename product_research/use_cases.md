@@ -31,14 +31,11 @@ Internationalization would be a matter of designing the frontend architecture wi
 ### MVP
 
 - Importing copy-pasted text
-- Viewing aggregated latest feedback on all sentences in a given passage, with a way to navigate to older feedback
 - Button to start/stop recording
 - Progress bar for number of sentences read out of total in passage
 - Can select sentence from passage to practice
 - Detailed feedback available for each error, which would be a highlighted word
-- Ideal pronounciation audio available to play for each error
 - Button to go to aggregated feedback
-- History of previous reading karaoke attempts on any passage, searchable by title and passage text
 - UI available in English and Spanish
 
 ## 2. Long reading
@@ -125,6 +122,8 @@ Considering that the history of activities is stored, the most recent of those c
 - Shows learning streak, defined as the number of consecutive days (dependent on the user's local time zone) in which the user completed at least one activity
 - Shows the total number of activities completed in the last 30 days
 - Has a "continue where you left off" button
+- Shows weekly and monthly averages of various key aspects of pronunciation like accuracy, fluency scores, etc.
+- Shows the user's percentile position (in terms of overall scores) in relation to other users
 
 ## 5. AI-powered reading passage generation
 

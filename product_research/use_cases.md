@@ -34,6 +34,7 @@ Internationalization would be a matter of designing the frontend architecture wi
 - Button to start/stop recording
 - Progress bar for number of sentences read out of total in passage
 - Can select sentence from passage to practice
+- Detailed feedback available for each error, which would be a highlighted word
 - Button to go to aggregated feedback
 - UI available in English and Spanish
 
@@ -120,6 +121,7 @@ Considering that the history of activities is stored, the most recent of those c
 
 - Shows learning streak, defined as the number of consecutive days (dependent on the user's local time zone) in which the user completed at least one activity
 - Shows the total number of activities completed in the last 30 days
+- Has a "continue where you left off" button
 - Shows weekly and monthly averages of various key aspects of pronunciation like accuracy, fluency scores, etc.
 - Shows the user's percentile position (in terms of overall scores) in relation to other users
 
